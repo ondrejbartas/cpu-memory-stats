@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "cpu-memory-stats"
   gem.homepage = "http://github.com/ondrejbartas/cpu-memory-stats"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Get system CPU and Memory usage}
+  gem.description = %Q{Simple gem for getting information about cpu and memory usage (Mac OS X, BSD)}
   gem.email = "ondrej@bartas.cz"
   gem.authors = ["Ondrej Bartas"]
   # dependencies defined in Gemfile
