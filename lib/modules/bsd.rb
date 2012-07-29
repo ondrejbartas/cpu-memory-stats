@@ -1,4 +1,7 @@
 # -*- encoding : utf-8 -*-
+# Module for geting informations from BSD
+# author: Ondrej Bartas
+
 module CpuMemoryStats
 
   class Bsd
