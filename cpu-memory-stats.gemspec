@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "cpu-memory-stats"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ondrej Bartas"]
-  s.date = "2012-07-29"
+  s.date = "2012-08-03"
   s.description = "Simple gem for getting information about cpu and memory usage (Mac OS X, BSD)"
   s.email = "ondrej@bartas.cz"
   s.extra_rdoc_files = [
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
+    "cpu-memory-stats.gemspec",
     "lib/cpu-memory-stats.rb",
     "lib/modules/bsd.rb",
     "lib/modules/mac.rb",
