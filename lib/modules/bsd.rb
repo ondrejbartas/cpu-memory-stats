@@ -8,7 +8,8 @@ module CpuMemoryStats
 
     def get_stats
       
-      output = {}
+      output = { :cpu => {} } 
+      
       output[:load_avg] = `sysctl -n vm.loadavg`.gsub(/\{|\}/,"").strip.split(" ").collect{|i| i.strip.to_f.round(2)}
       
       cpu = `sysctl -n kern.cp_time`.strip.split(" ").collect{|i| i.strip.to_i}
