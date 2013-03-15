@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "cpu-memory-stats"
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ondrej Bartas"]
-  s.date = "2012-08-03"
+  s.date = "2013-03-15"
   s.description = "Simple gem for getting information about cpu and memory usage (Mac OS X, BSD)"
   s.email = "ondrej@bartas.cz"
   s.extra_rdoc_files = [
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/ondrejbartas/cpu-memory-stats"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
+  s.rubygems_version = "1.8.24"
   s.summary = "Get system CPU and Memory usage"
 
   if s.respond_to? :specification_version then
